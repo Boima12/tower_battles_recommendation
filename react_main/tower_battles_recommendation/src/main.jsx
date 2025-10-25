@@ -12,7 +12,7 @@ import Co_detail from './pages/detail/detail.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/tower_battles_recommendation">
       <Routes>
 
         <Route path="/" element={<App />} />
