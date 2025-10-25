@@ -1,6 +1,4 @@
-const frontEndDevURL = 'http://localhost:5173';
-
-const allowedOrigins = (process.env.FRONTEND_URLS || frontEndDevURL)
+const allowedOrigins = (process.env.FRONTEND_URLS || process.env.FRONTEND_URLS_DEV)
     .split(',')
     .map(s => s.trim())
     .filter(Boolean);

@@ -15,13 +15,5 @@ export default defineConfig({
       '~': path.resolve(__dirname, './'), // Alias '~' points to the 'src' folder
     },
   },
-
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-      },
-    },
-  },
+  base: '/tower_battles_recommendation/',
 })
