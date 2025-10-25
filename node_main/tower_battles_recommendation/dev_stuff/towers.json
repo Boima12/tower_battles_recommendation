@@ -1,0 +1,335 @@
+[
+    {
+        "name": "Scout",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Scout.webp",
+        "unlock_price": 0,
+        "placement_price": 250,
+        "rank": "C",
+        "description": "Due to their inexpensive cost and low overall damage output, Scouts can be adequate for early-game defense, though their effectiveness may not suffice during later waves. Scouts cannot gain Hidden detection on their own until they are upgraded to level 5, which is relatively inexpensive. ",
+        "pair_with": []
+    },
+    {
+        "name": "Fragger",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Fragger.webp",
+        "unlock_price": 100,
+        "placement_price": 350,
+        "rank": "C",
+        "description": "can be viable for clearing groups of zombies during early wave defense. At level 5, the Fragger does nearly double the amounts of damage per second in comparison to the level 4 Mortar and Tuber for a similar total price and excellent cost efficiency. ",
+        "pair_with": []
+    },
+    {
+        "name": "Sniper",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Sniper.webp",
+        "unlock_price": 100,
+        "placement_price": 450,
+        "rank": "C",
+        "description": "Although the Sniper's high damage at later levels can fare with mid-wave defense, it has a generally poor cost efficiency for its price. Slower enemies are prone to being vulnerable to the Sniper, as they can be damaged more frequently before leaving the Sniper's range while faster enemies may leave its range quickly. ",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Shotgunner",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Shotgunner.webp",
+        "unlock_price": 300,
+        "placement_price": 300,
+        "rank": "C",
+        "description": "The Shotgunner has a unique spread functionality where it deals full direct damage to its primary target and deals half of that damage to enemies nearby its 70-degree spread angle. Unlike splash damage, however, the Shotgunner's spread can only hit a limited number of targets. At level 1, the Shotgunner fires every 2 seconds, dealing 4 direct damage and 2 spread damage to a maximum of one target, and this increases as the tower is upgraded. ",
+        "pair_with": ["Aviator", "Commander"]
+    },
+    {
+        "name": "Cryo-Gunner",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/CryoGunner.webp",
+        "unlock_price": 400,
+        "placement_price": 200,
+        "rank": "D",
+        "description": "The Cryo-Gunner freezes enemies within a 1.3 splash radius, momentarily stopping their movement in place. It has a firerate of 2.8 seconds but will not deal damage until level 3. While the Cryo-Gunner's maximum freeze duration increases upon being upgraded, this duration may vary between different enemies",
+        "pair_with": []
+    },
+    {
+        "name": "Farm",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Farm.webp",
+        "unlock_price": 500,
+        "placement_price": 300,
+        "rank": "S",
+        "description": "The Farm can be strategically used for generating more cash as the game progresses and as an additional source of income aside from damaging enemies and receiving wave bonuses. This could be beneficial for placing or upgrading expensive towers",
+        "pair_with": ["DJ", "Golden Commando", "Zed"]
+    },
+    {
+        "name": "Soldier",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Soldier.webp",
+        "unlock_price": 500,
+        "placement_price": 450,
+        "rank": "B",
+        "description": "The Soldier is armed with an assault rifle that fires a burst of three shots with a cooldown between bursts, due to their cheap upgrade prices and moderate cost efficiency, Soldiers can be effective during early-game defense and gain Hidden detection at a relatively low cost. ",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Mortar",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Mortar.webp",
+        "unlock_price": 800,
+        "placement_price": 800,
+        "rank": "S",
+        "description": "The Mortar can be a highly effective splash damaging tower, as it can easily clear enemies during early waves and scales strongly into the late game with its reasonable damage, large splash radius, and far range.",
+        "pair_with": ["DJ", "Commander"]
+    },
+    {
+        "name": "Tuber",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Tuber.webp",
+        "unlock_price": 800,
+        "placement_price": 800,
+        "rank": "B",
+        "description": "The Tuber specializes in crowd control, capable of wiping out clusters of enemies during early to mid-game defense. In contrast to the Mortar, the Tuber has a lower splash radius and range but has increased direct damage and gains Hidden detection more early at level 3. ",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Patrol",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Patrol.webp",
+        "unlock_price": 800,
+        "placement_price": 400,
+        "rank": "B",
+        "description": "The Patrol is generally not a very reliable tower in aspect of its inconsistent damage output and cost efficiency, in which its effectiveness can be surpassed by many towers when farming.",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Enforcer",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Enforcer.webp",
+        "unlock_price": 800,
+        "placement_price": 350,
+        "rank": "B",
+        "description": "the Enforcer has a very short range and does moderate damage. Starting from level 4, the Enforcer can stun enemies every swing for 0.8s. Enemies with partial shock resistance will be slightly slowed while others with limited resistance",
+        "pair_with": []
+    },
+    {
+        "name": "Barracks",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Barracks.webp",
+        "unlock_price": 1000,
+        "placement_price": 750,
+        "rank": "C",
+        "description": "Barracks' Soldiers works much better when multiple groups of Soldiers of stacked together, together dealing high damage per second and tear through tough enemies without being trampled.",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Aviator",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Aviator.webp",
+        "unlock_price": 1000,
+        "placement_price": 850,
+        "rank": "S",
+        "description": "The Aviator functions in a rather unique way apart from most towers. Upon being placed, a biplane from the Aviator's runaway will fly clockwise in a circular ring path. As the plane moves, enemies that are present within its range beneath it will be fired upon. Since the Aviator is an air-based tower, it has immunity to all forms of debuffs",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Flamethrower",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Flamethrower.webp",
+        "unlock_price": 1000,
+        "placement_price": 750,
+        "rank": "A",
+        "description": "The Flamethrower is a special tower that projects a jet of flames, setting multiple enemies ablaze on contact. Unlike most towers, the Flamethrower itself does not deal damage, but relies on burn damage to defeat and slow enemies instead. Enemies that are engulfed in flames have their movement speed reduced by 40% for the duration they are set on fire.",
+        "pair_with": []
+    },
+    {
+        "name": "Mercenary",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Mercenary.webp",
+        "unlock_price": 1000,
+        "placement_price": 850,
+        "rank": "B",
+        "description": "The Mercenary has great cost efficiency at level 1 and is particularly cheaper than the Commando, allowing them to be deployed earlier, though its cost becomes inefficient beyond level 1.",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Marksman",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Marksman.webp",
+        "unlock_price": 1100,
+        "placement_price": 725,
+        "rank": "A",
+        "description": "The Marksman is somewhat viable for early-game defense as it has long range and can eliminate Normals and Speedies in one shot; however, the Marksman can be overwhelmed by swarms of weaker enemies due to its sluggish firerate. The Marksman's true strength lies in taking out enemies that have higher health.",
+        "pair_with": ["Commander", "Mortar"]
+    },
+    {
+        "name": "Commando",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Commando.webp",
+        "unlock_price": 1200,
+        "placement_price": 1850,
+        "rank": "B",
+        "description": "Given to its costly placement and upgrade prices, the Commando can be outcompeted by other cheaper towers, like the Marksman and Mercenary. Though, the level 1 Commando is more cost efficient than the level 3 Marksman.",
+        "pair_with": ["DJ", "Commander"]
+    },
+    {
+        "name": "Commander",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Commander.webp",
+        "unlock_price": 1200,
+        "placement_price": 700,
+        "rank": "A",
+        "description": "The Commander is versatile for many gamemodes, often finding its use through its many abilities and passive statistical boosts that it provides. At level 3, the Commander's Call to Arms ability is especially valuable as it adds an additional firerate boost to towers within its range, contributing to their increased damage per second for a short duration.",
+        "pair_with": []
+    },
+    {
+        "name": "DJ",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Dj.webp",
+        "unlock_price": 1400,
+        "placement_price": 950,
+        "rank": "S",
+        "description": "the DJ boasts a large range of 20 studs and grants firerate boost to nearby towers. Starting from level 3, the DJ can also discount upgrade prices as well. At level 5, the DJ gain the Apocalypse Rave ability, which when activated, make all enemies within its range stop and dance.",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Anarchist",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Anarchist.webp",
+        "unlock_price": 1400,
+        "placement_price": 650,
+        "rank": "A",
+        "description": "The Anarchist is specialized for Versus mode with its main purpose of sabotaging and disorienting the opposing team's defense through its use of offensive abilities.",
+        "pair_with": []
+    },
+    {
+        "name": "Railgunner",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Railgunner.webp",
+        "unlock_price": 2200,
+        "placement_price": 2450,
+        "rank": "A",
+        "description": "The Railgunner can be an exceptional tower for most gamemodes in general due to its very high damage per shot. It can chip off large amounts of health per shot and can fend off late-game enemies",
+        "pair_with": ["DJ", "Commander"]
+    },
+    {
+        "name": "Plasma Trooper",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Plasma_trooper.webp",
+        "unlock_price": 2400,
+        "placement_price": 950,
+        "rank": "B",
+        "description": "When all of its beams are in use, the Plasma Trooper can be a great, cost effective crowd-control tower. Since it can target Hidden enemies at level 1, the Plasma Trooper can handle few Hiddens at a relatively low price for early wave defense.",
+        "pair_with": ["DJ", "Commander", "Railgunner"]
+    },
+    {
+        "name": "Phaser",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Phaser.webp",
+        "unlock_price": 2600,
+        "placement_price": 3200,
+        "rank": "B",
+        "description": "The Phaser fires a beam of energy that gradually deals more damage the longer it is locked into its target, most effective for taking out high health enemies and bosses rather quickly during late-game defense in Survival and event gamemodes.",
+        "pair_with": ["DJ", "Commander", "Mortar"]
+    },
+    {
+        "name": "Zed",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Zed.webp",
+        "unlock_price": 5400,
+        "placement_price": 5650,
+        "rank": "A",
+        "description": "The Zed periodically spawns M1s with a large health of 420 at the end of the path every 46 seconds. M1s spawned by the Zed will drive towards the path entrance then shoot and collide into enemies on ground until destroyed. As the Zed is upgraded, units will have increased health and deal splash damage.",
+        "pair_with": ["DJ", "Commander", "Farm"]
+    },
+    {
+        "name": "Scarecrow",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Scarecrow.webp",
+        "unlock_price": 0,
+        "placement_price": 150,
+        "rank": "D",
+        "description": "The Scarecrow knocks back enemies, including Hidden enemies, within its range every 1.7 seconds per target. Enemies that are knocked back will briefly move to the opposite direction and turn around. The Scarecrow, however, cannot knockback the same target for a duration of 6.6 seconds and is unable to inflict damage.",
+        "pair_with": []
+    },
+    {
+        "name": "Elf",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Elf.webp",
+        "unlock_price": 0,
+        "placement_price": 400,
+        "rank": "C",
+        "description": "The Elf is armed with a present launcher that shoots explosive presents that deal 2 damage each. Being a somewhat moderately cheap tower, the Elf can be viable for early-game defense and use its splash-damaging capabilities against grouped zombies.",
+        "pair_with": []
+    },
+    {
+        "name": "Hallowboomer",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Hallowboomer.webp",
+        "unlock_price": 0,
+        "placement_price": 600,
+        "rank": "B",
+        "description": "The Hallowboomer wields a pumpkin launcher shoots a flaming pumpkin that explodes on impact, dealing splash damage and igniting all enemies in its splash radius. Burning enemies will have their movement speed reduced by 40% for the duration they were set on fire.",
+        "pair_with": []
+    },
+    {
+        "name": "Tweeter",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Tweeter.webp",
+        "unlock_price": 0,
+        "placement_price": 325,
+        "rank": "C",
+        "description": "low cost and ability to generate income, the Tweeter can be a viable tower to defend early-game. At level 5, the Tweeter is able to attack enemies within another level 5 Tweeter's range, in which, when placed strategically, can theoretically provide the Tweeters limitless range.",
+        "pair_with": []
+    },
+    {
+        "name": "Resting Soldier",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/RestingSoldier.webp",
+        "unlock_price": 0,
+        "placement_price": 10,
+        "rank": "D",
+        "description": "The Resting Soldier sits on a bench and remains idle for the entire game until wave 40 on Versus and Survival modes. Despite its description stating that it will deal devastating damage on the final wave, the Resting Soldier will instead lie down on the bench and fall asleep",
+        "pair_with": []
+    },
+    {
+        "name": "Graveyard",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Graveyard.webp",
+        "unlock_price": 0,
+        "placement_price": 450,
+        "rank": "C",
+        "description": "the Graveyard spawns a variety of units on the path instead of one specific unit at a time. Starting from level 3 and beyond, the Graveyard will spawn a new unit each level and few of them are capable of attacking enemies within their range with their melee weapons. At level 5, all previously spawned units are replaced by upgraded counterparts with twice as much health and spawns the Jack on the path.",
+        "pair_with": []
+    },
+    {
+        "name": "Monkey",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Monkey.webp",
+        "unlock_price": 0,
+        "placement_price": 25,
+        "rank": "D",
+        "description": "Upon being placed, the Monkey will simply stand still and sometimes take a bite out of its banana. Once enemies enter into the Monkey's 12 stud range, it will shout and jump wildly. Apart from that, the Monkey cannot attack enemies and does not have Hidden detection, making it more of a novelty than an effective tower. This tower does not have any upgrades.",
+        "pair_with": []
+    },
+    {
+        "name": "Snowballer",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Snowballer.webp",
+        "unlock_price": 500,
+        "placement_price": 100,
+        "rank": "D",
+        "description": "The Snowballer, hence the name, tosses snowballs at enemies that deals damage per shot every seconds, since these snowballs are projectiles with a preset travel time, the Snowballer may not be perfectly accurate and may occasionally miss its target. At later levels snowballer can freeze enemy and deal splash damage",
+        "pair_with": []
+    },
+    {
+        "name": "Harpoon Hunter",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/HarpoonHunter.webp",
+        "unlock_price": 0,
+        "placement_price": 650,
+        "rank": "B",
+        "description": "The Harpoon Hunter fires harpoon projectiles that stick onto their target and have a unique ability to slow them down for a limited duration. At level 1, each harpoon slows its target by 10%, which lasts for 4 seconds. This slowing effect, however, can only stack up to a maximum of 60% at any level.",
+        "pair_with": ["Commander"]
+    },
+    {
+        "name": "Patrioteer",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Patrioteer.webp",
+        "unlock_price": 0,
+        "placement_price": 275,
+        "rank": "D",
+        "description": "the Patrioteer can be effective during early-game defense due to its generally cheap placement cost, it does not have upgrades",
+        "pair_with": []
+    },
+    {
+        "name": "poopi",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/Poopi.webp",
+        "unlock_price": 0,
+        "placement_price": 25,
+        "rank": "D",
+        "description": "The poopi is more of a novelty rather than being an effective tower. Upon being placed, the poopi will release a farting sound and leaves a ludicrously large placement footprint, preventing other towers from being placed near it. This tower does not have any upgrades. ",
+        "pair_with": []
+    },
+    {
+        "name": "Golden Scout",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/GoldenScout.webp",
+        "unlock_price": 3500,
+        "placement_price": 690,
+        "rank": "A",
+        "description": "The Golden Scout can be effective for defending early waves as well as providing sufficient damage per second for the late game. At early levels, the Golden Scout has mediocre range and firerate, so it is recommended to place them in spots where they can maximize the use of their range.",
+        "pair_with": ["DJ", "Commander"]
+    },
+    {
+        "name": "Golden Commando",
+        "tower_icon": "https://boimaawsbucket.s3.ap-southeast-2.amazonaws.com/temp_assets/GoldenCommando.webp",
+        "unlock_price": 8500,
+        "placement_price": 4690,
+        "rank": "A",
+        "description": "Being many times stronger than the Commando, the Golden Commando can be highly effective to defend mid to late waves due to its high damage per second and far range.",
+        "pair_with": ["DJ", "Commander", "Farm"]
+    }
+]

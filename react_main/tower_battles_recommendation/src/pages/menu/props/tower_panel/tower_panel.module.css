@@ -1,0 +1,78 @@
+h3,
+p {
+  margin: 0;
+}
+
+button {
+  width: 340px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #333;
+  transition: all 0.4s;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+button img.tower_icon {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #4e4e4e;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+button div.tower_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+button div.tower_intro p.name {
+  color: #f6f6f6;
+  font-family: "Fragment Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  align-self: stretch;
+}
+button div.tower_intro p.placement_price {
+  color: #8cd65e;
+  font-family: "Fragment Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button div.tower_intro div.credit_section {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+button div.tower_intro div.credit_section img.credits_icon {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+button div.tower_intro div.credit_section p.unlock_price {
+  color: #fff567;
+  font-family: "Fragment Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button:hover {
+  background: #2a2a2a;
+}
+
+/*# sourceMappingURL=tower_panel.module.css.map */

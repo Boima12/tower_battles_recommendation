@@ -1,0 +1,22 @@
+const frontEndDevURL = 'http://localhost:5173';
+
+const allowedOrigins = (process.env.FRONTEND_URLS || frontEndDevURL)
+    .split(',')
+    .map(s => s.trim())
+    .filter(Boolean);
+
+const corsOptions = {
+    origin: function (origin, callback) {
+        // allow requests that don't have an origin (mobile apps, curl, server-to-server)
+        if (!origin) return callback(null, true);
+
+        if (allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true
+};
+
+module.exports = corsOptions;

@@ -1,0 +1,172 @@
+h3,
+p {
+    margin: 0;
+}
+
+div.main_detail {
+    background: #333;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+
+    div.menu_top {
+        height: 100px;
+        padding: 0 80px;
+
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+
+        .icon {
+            width: 29px;
+            height: 16px;
+            color: #f6f6f6;
+            cursor: pointer;
+
+            transition: all 0.4s;
+
+            &:hover {
+                color: #dadada;
+            }
+        }
+    }
+
+    div.menu_body {
+        display: flex;
+        padding: 0 120px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+
+        div.menu_main {
+            border-radius: 0 5px 5px 5px;
+            background: #4c4c4c;
+            box-sizing: border-box;
+            padding: 30px 40px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            div.details {
+                padding-bottom: 50px;
+
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                gap: 15px;
+                align-self: stretch;
+
+                p.tower_description {
+                    max-width: 616px;
+                    color: #e1e1e1;
+                    font-family: "Fragment Mono";
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    flex: 1 0 0;
+                }
+
+                div.details_stats {
+                    width: 370px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    gap: 8px;
+
+                    p.tower_name {
+                        color: #f6f6f6;
+                        font-family: "Fragment Mono";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    p.placement_price {
+                        color: #8cd65e;
+                        font-family: "Fragment Mono";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    div.credit_section {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 5px;
+
+                        img {
+                            width: 15px;
+                            height: 15px;
+
+                            object-fit: cover;
+                            object-position: center;
+                            display: block;
+                        }
+
+                        p.unlock_price {
+                            color: #fff567;
+                            font-family: "Fragment Mono";
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+
+                img.tower_icon {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 5px;
+                    border: 1px solid #4e4e4e;
+                    background: rgba(0, 0, 0, 0.20);
+
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                }
+            }
+
+            div.best_pair_with {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                align-self: stretch;
+
+                p {
+                    color: #e1e1e1;
+                    font-family: "Fragment Mono";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                img.tower_pair_icon {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 5px;
+                    border: 1px solid #4e4e4e;
+                    background: rgba(0, 0, 0, 0.20);
+
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                }
+            }
+        }
+    }
+}

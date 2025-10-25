@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Inter';
+
+    src: url('./Inter/Inter-VariableFont.ttf');
+}
+
+@font-face {
+    font-family: 'Fragment Mono';
+
+    src: url('./Fragment_Mono/FragmentMono-Regular.ttf');
+}

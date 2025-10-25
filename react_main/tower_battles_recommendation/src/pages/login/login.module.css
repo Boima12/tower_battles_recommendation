@@ -1,0 +1,239 @@
+h3, p {
+  margin: 0;
+}
+
+div.horizontalAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 11px;
+}
+
+div.main_login {
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.main_login form.form {
+  width: 470px;
+  height: 550px;
+  border-radius: 20px;
+  background: #fff;
+  opacity: 0;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+div.main_login form.form div.upperBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+div.main_login form.form div.upperBar button {
+  height: 47px;
+  background: #d9d9d9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div.main_login form.form div.upperBar button:nth-child(1) {
+  border-radius: 20px 0 0 0;
+}
+div.main_login form.form div.upperBar button:nth-child(2) {
+  border-radius: 0 20px 0 0;
+}
+div.main_login form.form div.upperBar button:hover, div.main_login form.form div.upperBar button.active {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+}
+div.main_login form.form div.login {
+  height: 400px;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+div.main_login form.form div.login div.inputs {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+div.main_login form.form div.login div.inputs p {
+  width: 100%;
+  min-height: 30px;
+  color: #b22a2a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+div.main_login form.form div.login div.inputs input[type=email],
+div.main_login form.form div.login div.inputs input[type=password] {
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+div.main_login form.form div.login div.inputs input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+div.main_login form.form div.login div.inputs label {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_login form.form div.login button {
+  width: 358px;
+  height: 40px;
+  border-radius: 10px;
+  background: #191919;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div.main_login form.form div.login.hidden {
+  display: none;
+}
+div.main_login form.form div.register {
+  height: 400px;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+div.main_login form.form div.register div.inputs {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+div.main_login form.form div.register div.inputs p {
+  width: 100%;
+  min-height: 30px;
+  color: #b22a2a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+div.main_login form.form div.register div.inputs input[type=text],
+div.main_login form.form div.register div.inputs input[type=email],
+div.main_login form.form div.register div.inputs input[type=password] {
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+div.main_login form.form div.register div.inputs input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+div.main_login form.form div.register div.inputs label {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_login form.form div.register div.inputs label span.blueText {
+  color: #178BCA;
+  cursor: pointer;
+}
+div.main_login form.form div.register button {
+  width: 358px;
+  height: 40px;
+  border-radius: 10px;
+  background: #191919;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div.main_login form.form div.register.hidden {
+  display: none;
+}
+div.main_login form.form.shown {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=login.module.css.map */

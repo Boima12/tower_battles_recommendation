@@ -1,0 +1,102 @@
+div.main_App {
+    overflow-x: hidden; // position: fixed; issue
+}
+
+div.main_App {
+    width: 100vw;
+    height: 100vh;
+    background: #7c8a8d;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+
+    div.box_left {
+        background: #7c8a8d;
+
+        width: 1100px;
+        height: 100%;
+        padding: 0 30px 50px 0;
+
+        transition: all 1.8s ease;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 414px;
+            height: 298px;
+
+            transition: all 0.5s ease;
+
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        &.hidden {
+            width: 0;
+            padding: 0;
+            
+            img {
+                opacity: 0;
+            }
+        }
+    }
+
+    div.box_right {
+        width: 436px;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.25);
+        background: #333;
+
+        transition: all 1.8s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        button {
+            width: 190px;
+            height: 40px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            background: #333;
+            cursor: pointer;
+
+            transition: all 0.5s ease;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+
+            color: rgba(255, 255, 255, 0.75);
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            &:hover {
+                box-shadow: 4px 4px rgba(194, 194, 194, 0.75);
+            }
+        }
+
+        &.fullScreen {
+            width: 100vw;
+            border-radius: 0;
+
+            button {
+                opacity: 0;
+            }
+        }
+    }
+}
