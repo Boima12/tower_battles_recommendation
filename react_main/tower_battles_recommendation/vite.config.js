@@ -15,5 +15,5 @@ export default defineConfig({
       '~': path.resolve(__dirname, './'), // Alias '~' points to the 'src' folder
     },
   },
-  base: '/tower_battles_recommendation/react_main/tower_battles_recommendation/',
+  base: '/tower_battles_recommendation/',
 })
