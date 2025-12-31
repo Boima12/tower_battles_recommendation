@@ -2,7 +2,7 @@ import styles from './detail.module.css';
 import { useState, useEffect, useCallback } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate, useParams } from 'react-router-dom';
-import axios from "axios";
+import api from '../../utilities/others/axios.js';
 
 import scoutImg from '~/src/assets/images/Scout.webp';
 import creditsIconImg from '~/src/assets/images/CreditsIcon.png';
@@ -27,7 +27,7 @@ function Co_detail() {
     const fetchTowerData = useCallback(async () => {
         try {
             // console.log(`towerId in detail: ${towerId}`);
-            const res = await axios.get(`/api/v1/towers/detail/${towerId}`);
+            const res = await api.get(`/towers/detail/${towerId}`);
 
             setTower_name(res.data.detailTowerData.name);
             setTower_description(res.data.detailTowerData.description);
@@ -40,7 +40,7 @@ function Co_detail() {
             // check if pair_with has any elements
             if (newPairWith.length > 0) {
                 const list = newPairWith.join(",");
-                const res2 = await axios.get(`/api/v1/towers/names?list=${list}`);
+                const res2 = await api.get(`/towers/names?list=${list}`);
                 setPair_with(res2.data.towersMatchName);
             }
 

@@ -2,7 +2,7 @@ import styles from "./menu.module.css";
 import { useRef, useState, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import api from '../../utilities/others/axios.js';
 
 import Co_tower_panel from "./props/tower_panel/tower_panel";
 
@@ -21,7 +21,7 @@ function Co_menu() {
     const [towers, setTowers] = useState([]);
     const fetchTowerData = useCallback(async () => {
         try {
-            const res = await axios.get(`/api/v1/towers/ranks/${currentRank}`);
+            const res = await api.get(`/towers/ranks/${currentRank}`);
             setTowers(res.data.rankTowersData); // Axios auto-parses JSON
             setIsChangeRankReady(true);
         } catch (err) {

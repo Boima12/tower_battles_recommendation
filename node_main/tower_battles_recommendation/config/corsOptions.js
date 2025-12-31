@@ -1,5 +1,9 @@
-const allowedOrigins = (process.env.FRONTEND_URLS || process.env.FRONTEND_URLS_DEV)
-    .split(',')
+const allowedOrigins = [
+    process.env.FRONTEND_URLS,
+    process.env.FRONTEND_URLS_DEV
+]
+    .filter(Boolean)
+    .flatMap(s => s.split(','))
     .map(s => s.trim())
     .filter(Boolean);
 
